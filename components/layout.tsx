@@ -6,7 +6,15 @@ type LayoutProps = {
   children: React.ReactNode;
 };
 
-const navigation = [{ name: "Playground", href: "#", current: true }];
+const navigation = [
+  { name: "Home", href: "#", current: true },
+  { name: "Crypto", href: "#", current: false },
+  // { name: "Art", href: "#", current: false },
+  // { name: "Design", href: "#", current: false },
+  // { name: "Finance", href: "#", current: false },
+  // { name: "Mindset", href: "#", current: false },
+  // { name: "About", href: "#", current: false },
+];
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
@@ -22,7 +30,7 @@ export default function Layout({ children }: LayoutProps) {
               <div className="flex h-16 justify-between">
                 <div className="flex">
                   {/* Home */}
-                  <div className="flex flex-shrink-0 items-center">BlockScan</div>
+                  <div className="flex flex-shrink-0 items-center">Barto Molina</div>
                   {/* Menu items */}
                   <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
                     {navigation.map((item) => (
