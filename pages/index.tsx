@@ -41,7 +41,7 @@ export default function Home() {
             Farcaster
           </a>
           <span> · </span>
-          <a href="mailto:bartomolina@gmail.com" target="_blank" rel="noopener noreferrer" className="text-blue-500">
+          <a href="https://instagram.com/bartomolina" target="_blank" rel="noopener noreferrer" className="text-blue-500">
             Instagram
           </a>
         </p>
