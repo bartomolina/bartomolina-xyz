@@ -37,7 +37,7 @@ const Portfolio = () => (
           <a href="https://www.artblocks.io/" target="_blank" rel="noopener noreferrer" className="underline">
             ArtBlocks
           </a>{" "}
-          is the biggest exponent in the generative art space and they've done an amazing job promoting and curating
+          is the biggest exponent in the generative art space and they&apos;ve done an amazing job promoting and curating
           artists. I built this site as a final project for the{" "}
           <a
             href="https://www.unic.ac.cy/openmetaverse/mooc-nfts-metaverse/"
@@ -49,7 +49,7 @@ const Portfolio = () => (
           </a>{" "}
           and the{" "}
           <a href="https://university.alchemy.com/" target="_blank" rel="noopener noreferrer" className="underline">
-            Alchemy's Ethereum Bootcamp
+            Alchemy&apos;s Ethereum Bootcamp
           </a>{" "}
           and as a way to celebrate and appreciate the work that Art Blocks and the artists who published their work
           through them have done in the past years.
